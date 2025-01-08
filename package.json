@@ -4,8 +4,9 @@
   "description": "Simple file structure for Tailwind projects",
   "main": "index.js",
   "scripts": {
-    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch",
-    "build": "tailwindcss -i ./input.css -o ./css/style.css"
+    "build": "tailwindcss -i  build --output public",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+    // "build": "tailwindcss -i ./input.css -o ./css/style.css"
   },
   "author": "Brad Traversy",
   "license": "MIT",
